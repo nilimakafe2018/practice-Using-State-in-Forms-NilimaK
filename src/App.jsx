@@ -9,7 +9,6 @@ export default function FeedbackForm() {
     email: "",
     feedback: "",
   });
-
   const handleChange = (e) => {
     const { name, value } = e.target;
 
@@ -66,6 +65,8 @@ export default function FeedbackForm() {
         <p>Feedback: {formData.feedback}</p>
       </div>
     </section>
+    
   );
+
 }
 
